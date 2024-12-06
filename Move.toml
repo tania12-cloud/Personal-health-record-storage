@@ -1,0 +1,15 @@
+    [package]
+    name = "PersonalHealthRecord"
+    version = "1.0.0"
+    authors = []
+
+    [addresses]
+    MyModule ='0xd6c7aaca4f444d2cd2c1b6ea9407be7c2372464b63af0db465ba2eac795b41fa'
+    [dev-addresses]
+
+    [dependencies.AptosFramework]
+    git = "https://github.com/aptos-labs/aptos-core.git"
+    rev = "mainnet"
+    subdir = "aptos-move/framework/aptos-framework"
+
+    [dev-dependencies]
